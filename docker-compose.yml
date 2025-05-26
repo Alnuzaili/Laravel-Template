@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+    mysql:
+        image: mysql:8.0
+        container_name: mysql_container
+        restart: always
+        environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+            MYSQL_DATABASE: ${DB_DATABASE}
+#            MYSQL_USER: ${DB_USERNAME}
+#            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ""
+        ports:
+            - "3306:3306"
+        volumes:
+            - mysql_data:/var/lib/mysql
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin_container
+        restart: always
+        environment:
+            PMA_HOST: mysql
+            MYSQL_ROOT_PASSWORD: ""
+        ports:
+            - "8010:80"
+        depends_on:
+            - mysql
+
+volumes:
+    mysql_data:
