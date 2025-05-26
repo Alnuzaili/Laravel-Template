@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 50;
+    src: local('PingAR+LT-Hairline'),  url(./fonts/PingAR+LT/PingAR+LT-Hairline.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 100;
+    src: local('PingAR+LT-Thin'),  url(./fonts/PingAR+LT/PingAR+LT-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 200;
+    src: local('PingAR+LT-ExtraLight'),  url(./fonts/PingAR+LT/PingAR+LT-ExtraLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 300;
+    src: local('PingAR+LT-Light'),  url(./fonts/PingAR+LT/PingAR+LT-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PingAR+LT-Regular'),  url(./fonts/PingAR+LT/PingAR+LT-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 500;
+    src: local('PingAR+LT-Medium'),  url(./fonts/PingAR+LT/PingAR+LT-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 600;
+    src: local('PingAR+LT-Bold'),  url(./fonts/PingAR+LT/PingAR+LT-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 800;
+    src: local('PingAR+LT-Heavy'),  url(./fonts/PingAR+LT/PingAR+LT-Heavy.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PingAR+LT';
+    font-style: normal;
+    font-weight: 900;
+    src: local('PingAR+LT-Black'),  url(./fonts/PingAR+LT/PingAR+LT-Black.otf) format('opentype');
+}
+

@@ -1,0 +1,27 @@
+{
+    "site_name": "اسم الموقع",
+    "name": "الاسم",
+    "description": "نموذج تطبيق ويب حديث يدعم التخصيص واللغات.",
+    "home": "الرئيسية",
+    "about": "عن الموقع",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "footer": "حقوق النشر © 2025. كل الحقوق محفوظة.",
+    "quick_links": "روابط سريعة",
+    "legal": "القانونية",
+    "privacy_policy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "cookies": "ملفات تعريف الارتباط",
+
+    "feature1_title": "عنوان الميزة 1",
+    "feature1_description": "وصف الميزة 1 هنا.",
+    
+    "feature2_title": "عنوان الميزة 2",
+    "feature2_description": "وصف الميزة 2 هنا.",
+    
+    "feature3_title": "عنوان الميزة 3",
+    "feature3_description": "وصف الميزة 3 هنا.",
+
+    "feature4_title": "عنوان الميزة 4",
+    "feature4_description": "وصف الميزة 4 هنا."
+}

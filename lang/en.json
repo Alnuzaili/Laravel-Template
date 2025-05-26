@@ -1,0 +1,27 @@
+{
+    "site_name": "Site Name",
+    "name": "Name",
+    "description": "A modern web application template with theming and localization support.",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "footer": "Copyright © 2025. All rights reserved.",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+
+    "feature1_title": "Feature 1 Title",
+    "feature1_description": "Feature 1 description goes here.",
+    
+    "feature2_title": "Feature 2 Title",
+    "feature2_description": "Feature 2 description goes here.",
+    
+    "feature3_title": "Feature 3 Title",
+    "feature3_description": "Feature 3 description goes here.",
+    
+    "feature4_title": "Feature 4 Title",
+    "feature4_description": "Feature 4 description goes here."
+}
