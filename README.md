@@ -31,7 +31,7 @@ php artisan key:generate
 php artisan migrate
 php artisan db:seed
 
-php artisan shield:install
+php artisan shield:install admin
 ```
 
 ### 7. Run application
