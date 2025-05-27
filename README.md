@@ -9,7 +9,7 @@ cd Laravel-Template
 ### 2. Install dependencies
 ```bash
 composer install
-pnpm install && pnpm run dev
+pnpm install && pnpm run build
 ```
 
 ### 3. Create environment file
@@ -29,6 +29,9 @@ php artisan key:generate
 ### 6. Run database migrations
 ```bash
 php artisan migrate
+php artisan db:seed
+
+php artisan shield:install
 ```
 
 ### 7. Run application
@@ -38,22 +41,7 @@ php artisan serve
 
 ---
 
-## 🛠️ Filament Admin Setup
-
-### 1. Install Filament
-```bash
-composer require filament/filament
-php artisan filament:install
-php artisan filament:install --panels
-```
-
-### 2. Create a Filament Admin User
-```bash
-php artisan make:filament-user
-```
-> Follow the prompts to set up email and password for admin access.
-
-### 3. Access Admin Panel
+## 🛠️ Filament Access Admin Panel
 ```url
 http://localhost:8000/admin
 ```
