@@ -23,5 +23,16 @@
     "feature3_description": "وصف الميزة 3 هنا.",
 
     "feature4_title": "عنوان الميزة 4",
-    "feature4_description": "وصف الميزة 4 هنا."
+    "feature4_description": "وصف الميزة 4 هنا.",
+    
+    "user_management": "إدارة المستخدمين",
+    "users": "المستخدمين",
+    "user": "مستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "roles": "الأدوار",
+    "email_verified_at": "تم التحقق من البريد الإلكتروني في",
+    "create_user": "إنشاء مستخدم",
+    "edit_user": "تعديل المستخدم",
+    "delete_user": "حذف المستخدم"
 }

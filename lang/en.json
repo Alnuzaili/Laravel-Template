@@ -23,5 +23,16 @@
     "feature3_description": "Feature 3 description goes here.",
     
     "feature4_title": "Feature 4 Title",
-    "feature4_description": "Feature 4 description goes here."
+    "feature4_description": "Feature 4 description goes here.",
+    
+    "user_management": "User Management",
+    "users": "Users",
+    "user": "User",
+    "email": "Email",
+    "password": "Password",
+    "roles": "Roles",
+    "email_verified_at": "Email Verified At",
+    "create_user": "Create User",
+    "edit_user": "Edit User",
+    "delete_user": "Delete User"
 }
