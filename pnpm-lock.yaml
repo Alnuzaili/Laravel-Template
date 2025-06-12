@@ -87,6 +87,9 @@ importers:
       '@iconify-json/hugeicons':
         specifier: ^1.2.4
         version: 1.2.5
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.38
+        version: 1.2.38
       '@tailwindcss/forms':
         specifier: ^0.5.10
         version: 0.5.10(tailwindcss@3.4.17)
@@ -422,6 +425,9 @@ packages:
 
   '@iconify-json/hugeicons@1.2.5':
     resolution: {integrity: sha512-luPAFcmQU7eQFHzjtYdYbF5j2h8/6SCv+FGQP7FNJNVBjVGQOyuyum5wXDFEx13F8lGk/AGPVWGqMHp7+HdmJg==}
+
+  '@iconify-json/simple-icons@1.2.38':
+    resolution: {integrity: sha512-mvMeFQgVjoHanQE9Q7ihmriEXAorjLZW+crUgQspDjFpzWuQp2RZMTppl1MN6TQztMVTsNFgF6LDKsp+v1RYRg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2492,6 +2498,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/hugeicons@1.2.5':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.38':
     dependencies:
       '@iconify/types': 2.0.0
 

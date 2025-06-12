@@ -11,19 +11,41 @@
     "legal": "القانونية",
     "privacy_policy": "سياسة الخصوصية",
     "terms": "الشروط والأحكام",
-    "cookies": "ملفات تعريف الارتباط",
+    "cookies": "سياسة ملفات تعريف الارتباط",
 
-    "feature1_title": "عنوان الميزة 1",
-    "feature1_description": "وصف الميزة 1 هنا.",
+    "get_started": "ابدأ الآن",
+    "admin_panel": "لوحة الإدارة",
+    "scroll_to_top": "العودة إلى الأعلى",
+    "made_with": "صُنع بـ",
+    "by_team": "من قِبل فريقنا",
+    "footer_rights": "جميع الحقوق محفوظة.",
+    "newsletter_title": "ابق على اطلاع",
+    "newsletter_description": "احصل على آخر التحديثات والمحتوى الحصري في صندوق بريدك الإلكتروني.",
+    "subscribe": "اشترك",
+
+    "features_title": "الميزات الرئيسية",
+    "features_subtitle": "اكتشف ما يجعل منصتنا مميزة",
+    "cta_title": "هل أنت مستعد للبدء؟",
+    "cta_description": "انضم إلى آلاف المستخدمين الذين يثقون بمنصتنا لاحتياجات أعمالهم.",
+    "start_now": "ابدأ الآن",
+    "learn_more": "اعرف المزيد",
+
+    "feature1_title": "أداء سريع",
+    "feature1_description": "مبني بتقنيات حديثة لأداء سريع البرق وتجربة مستخدم مثلى.",
     
-    "feature2_title": "عنوان الميزة 2",
-    "feature2_description": "وصف الميزة 2 هنا.",
+    "feature2_title": "آمن وموثوق",
+    "feature2_description": "أمان على مستوى المؤسسات مع مصادقة قوية والتحكم في الوصول القائم على الأدوار.",
     
-    "feature3_title": "عنوان الميزة 3",
-    "feature3_description": "وصف الميزة 3 هنا.",
+    "feature3_title": "سهل التخصيص",
+    "feature3_description": "قابل للتخصيص بدرجة عالية مع هيكل كود نظيف ووثائق شاملة.",
 
     "feature4_title": "عنوان الميزة 4",
     "feature4_description": "وصف الميزة 4 هنا.",
+    
+    "stats_active_users": "المستخدمون النشطون",
+    "stats_uptime": "وقت التشغيل",
+    "stats_support": "الدعم الفني",
+    "stats_countries": "البلدان",
     
     "user_management": "إدارة المستخدمين",
     "users": "المستخدمين",

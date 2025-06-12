@@ -81,59 +81,59 @@ const buttonClasses = computed(() => {
 
     // Style variant classes
     if (props.link) {
-        classes.push('bg-transparent hover:bg-transparent text-gray-800 hover:text-primary');
+        classes.push('bg-transparent hover:bg-transparent text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary');
     } else if (props.outlined) {
         switch (props.variant) {
             case 'primary':
-                classes.push('border-2 border-primary text-primary hover:bg-primary hover:text-primary-800');
+                classes.push('border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground dark:border-primary dark:text-primary dark:hover:bg-primary dark:hover:text-primary-foreground');
                 break;
             case 'secondary':
-                classes.push('border-2 border-secondary text-secondary hover:bg-secondary hover:text-white');
+                classes.push('border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground dark:border-secondary dark:text-secondary dark:hover:bg-secondary dark:hover:text-secondary-foreground');
                 break;
             case 'accent':
-                classes.push('border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white');
+                classes.push('border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground dark:border-accent dark:text-accent dark:hover:bg-accent dark:hover:text-accent-foreground');
                 break;
             case 'danger':
-                classes.push('border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white');
+                classes.push('border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white dark:border-red-400 dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white');
                 break;
             case 'success':
-                classes.push('border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white');
+                classes.push('border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white dark:border-green-400 dark:text-green-400 dark:hover:bg-green-500 dark:hover:text-white');
                 break;
             case 'warning':
-                classes.push('border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white');
+                classes.push('border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white dark:border-yellow-400 dark:text-yellow-400 dark:hover:bg-yellow-500 dark:hover:text-white');
                 break;
             case 'info':
-                classes.push('border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white');
+                classes.push('border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-500 dark:hover:text-white');
                 break;
             case 'ghost':
-                classes.push('border border-transparent text-gray-600 hover:bg-gray-100');
+                classes.push('border border-transparent text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800');
                 break;
         }
     } else {
         switch (props.variant) {
             case 'primary':
-                classes.push('bg-primary text-primary-950 hover:bg-primary-700 hover:shadow-md hover:text-white');
+                classes.push('bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-md dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90');
                 break;
             case 'secondary':
-                classes.push('bg-secondary text-white hover:bg-secondary-600 hover:shadow-md');
+                classes.push('bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:shadow-md dark:bg-secondary dark:text-secondary-foreground dark:hover:bg-secondary/90');
                 break;
             case 'accent':
-                classes.push('bg-primary-800/80 text-white hover:bg-primary-800/60 hover:shadow-md');
+                classes.push('bg-accent text-accent-foreground hover:bg-accent/90 hover:shadow-md dark:bg-accent dark:text-accent-foreground dark:hover:bg-accent/90');
                 break;
             case 'danger':
-                classes.push('bg-red-500 text-white hover:bg-red-600 hover:shadow-md');
+                classes.push('bg-red-500 text-white hover:bg-red-600 hover:shadow-md dark:bg-red-600 dark:hover:bg-red-700');
                 break;
             case 'success':
-                classes.push('bg-green-500 text-white hover:bg-green-600 hover:shadow-md');
+                classes.push('bg-green-500 text-white hover:bg-green-600 hover:shadow-md dark:bg-green-600 dark:hover:bg-green-700');
                 break;
             case 'warning':
-                classes.push('bg-yellow-500 text-white hover:bg-yellow-600 hover:shadow-md');
+                classes.push('bg-yellow-500 text-white hover:bg-yellow-600 hover:shadow-md dark:bg-yellow-600 dark:hover:bg-yellow-700');
                 break;
             case 'info':
-                classes.push('bg-blue-500 text-white hover:bg-blue-600 hover:shadow-md');
+                classes.push('bg-blue-500 text-white hover:bg-blue-600 hover:shadow-md dark:bg-blue-600 dark:hover:bg-blue-700');
                 break;
             case 'ghost':
-                classes.push('bg-transparent hover:bg-gray-100 text-gray-600');
+                classes.push('bg-transparent hover:bg-gray-100 text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800');
                 break;
         }
     }
